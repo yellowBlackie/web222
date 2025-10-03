@@ -1,0 +1,23 @@
+body {
+  display:grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "sec2"
+    "sec3"
+    "sec4"
+    "sec5"
+    "side"
+    "footer";
+  margin:0;
+  font-family:Arial,sans-serif;
+}
+.block { padding:20px; border:1px solid #333; text-align:center; }
+.block1 { grid-area:header; background:#aaf; }
+.blockx { grid-area:nav; background:#faa; }
+.block2 { grid-area:sec2; background:#afa; }
+.block3 { grid-area:sec3; background:#ffa; }
+.block4 { grid-area:sec4; background:#aff; }
+.block5 { grid-area:sec5; background:#faf; }
+.block6 { grid-area:side; background:#ddd; justify-self:end; width:200px; }
+.blocky { grid-area:footer; background:#bbb; }

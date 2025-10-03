@@ -1,0 +1,10 @@
+body { margin:0; font-family:Arial,sans-serif; }
+.block { padding:20px; border:1px solid #333; text-align:center; }
+.block1 { background:#aaf; }
+.blockx { background:#faa; }
+.block2 { background:#afa; }
+.block3 { background:#ffa; }
+.block4 { background:#aff; }
+.block5 { background:#faf; }
+.block6 { background:#ddd; float:right; width:200px; }
+.blocky { background:#bbb; clear:both; }
